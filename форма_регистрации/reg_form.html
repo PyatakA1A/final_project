@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset= "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Слакдие мечты</title>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+    <div id="contactForm">
+        <form action="#" method = "post" target ="_blank">
+            <h2>Регистрация</h2>
+            <fieldset id = "ordform">
+                <legend>Контакты</legend>
+                  <ul>
+                    <li>
+                        <label for="name">ФИО:*</label> 
+                        <input type="text"name="name"placeholder="Пятак Арина Алексеевна" id="name" required>
+                    </li>
+                    <li>
+                        <label for = "number">Телефон:*</label>
+                        <input type="tel"name="phone" placeholder="+7 9-- --- -- --" id = "phone" min="0"max="9"style="width: 135px;">
+                    </li>
+                    <li>
+                        <label for = "email">Email:*</label>
+                        <input type = "email" name = "mail" placeholder="arina@mail.com" id="email" required>
+                    </li>
+                </ul>
+            </fieldset>
+                <input type = "submit">
+                <p>*-Обязательно для заполнения</p>
+    </div>
+</body>

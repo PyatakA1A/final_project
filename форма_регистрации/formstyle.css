@@ -1,0 +1,31 @@
+
+        #contactForm{
+            font-family: Georgia;
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            
+        }
+        #ordform{
+            border-radius: 30px;
+            border-color: #ea6bce;
+            margin-bottom: 25px;
+        }
+       #name,#phone,#email{
+        margin:7px auto;
+       }
+       input[type=submit]{
+            font-size: 14px;
+            height: 45px;
+            width: 100px;
+            border-color: #e51fba;
+            border-radius: 30px;
+            background: #ef5aae;
+            color: #ffffff;
+            cursor: pointer;
+       }
+       input[type=submit]:hover{
+            background: #f8c7e0;
+            color: #ffffff;
+       }
+    
